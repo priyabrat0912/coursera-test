@@ -5,6 +5,6 @@
 $scope.name="priyabrat";
 $scope.sayHello=function(){
   return "hello coursera";
-}
+};
   });
 })();
