@@ -6,9 +6,9 @@
     <script src="app.js"></script>
     <title>hello coursera</title>
   </head>
-  <body ng-init="person={firstName:'John',lastName:'Doe'}">
+  <body ng-init="points=[1,2,3,4,5]">
     <div ng-controller="myFirstController">
-    <h1 ng-bind="person.firstName"></h1>
+    <h1 ng-bind="{{points[2]}}"></h1>
   </div>
   </body>
 </html>
