@@ -6,9 +6,10 @@
     <script src="app.js"></script>
     <title>hello coursera</title>
   </head>
-  <body ng-init="myCol='blue'">
+  <body ng-init="myCol='blue';myText='hell-o'">
     <div ng-controller="myFirstController">
     <h1>hello coursera students !! i'm thrill</h1>
+    <p ng-bind="myText"></p>
     <input style="background-color:{{myCol}}" ng-model="myCol" value="{{myCol}}">
   </div>
   </body>
